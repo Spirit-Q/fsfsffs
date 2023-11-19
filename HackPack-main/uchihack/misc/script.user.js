@@ -17,7 +17,7 @@
         return new RegExp("^" + rule.split("*").map(escapeRegex).join(".*") + "$").test(str);
     }
 
-    var root = "https://cdn.jsdelivr.net/gh/theairblow/hackpack/uchihack/";
+    var root = "https://github.com/Spirit-Q/fsfsffs/tree/main/HackPack-main/uchihack";
     var rawConfig = await fetch(root + "injector/config.json");
     var config = await rawConfig.json();
 
